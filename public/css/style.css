@@ -1,0 +1,559 @@
+body{
+    font: 15px/1.5 Arail Helvetica, sans-serif;
+   margin: 0px;
+    padding: 0px;
+
+}
+.container{
+    width: 80%;
+    margin:auto; 
+    overflow:hidden;
+    padding-bottom: 20px;
+}
+header{
+background: #353535;
+color:white;
+border-bottom:#32A0C2 3px solid;
+min-height: 70px;
+padding-top: 30px;
+}
+#branding{
+    float: left;
+}
+.highlight{
+    color: #32A0C2;
+    font-weight: bold;
+}
+ul{
+    margin: 0%;
+    padding: 0%;
+}
+header li{
+display: inline;
+padding: 0px 20px 0px 20px;
+}
+header a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header #branding h1{
+    margin: 0px;
+}
+.middlesec{
+    background-image:url(.) ;
+    padding: 200px 100px;
+    color: white;
+    font-size: 30px;
+    text-align: center;     
+} 
+.middlesec h1{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+
+}  
+#subscribearea{
+background: hsl(193, 59%, 87%);;
+
+}
+#subscribearea h1{
+    float: left;
+}
+#subscribearea form{
+    float: right;
+margin-top: 15px;
+}
+
+#subscribearea input[type="email"]{
+    display: block;
+    width: 250px;
+    border: 2px solid black;
+    height: 25px;
+    padding: 4px;
+    float: left;
+}
+
+.btnsubscribe{
+    height: 38px;
+    padding: 0px 20px 0px 20px;
+    background-color: #32A0C2;
+    color: white;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+   /* border: 0 none; */
+
+
+}
+header a:hover{
+    color: gray;
+    font-weight: bold;
+}
+.hero-image::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+    background-position: center center;
+    background-repeat: no-repeat;
+    filter: brightness(88%);
+}
+.sim-image::before{
+    
+    content: "";
+    background-image: url(../images/Capture7.jpg);
+    filter: brightness(88%);
+
+}
+
+#pictureintro{
+    min-height: 400px;
+    background: url('../images/headerbg.jpg') no-repeat center;
+    background-size:  cover;
+    text-align: center;
+    color:white;
+    padding: 200px 100px;
+
+}
+
+/*.subsec1{
+background-color: green;
+
+}
+#pictureintro{
+    min-height: 200px;
+    background-size:  auto;
+    padding: 200px 100px;
+
+}*/
+.pictureintro h1{
+    font-size: 55px;
+    color:#fff ;
+    text-align:center;   
+
+
+}
+.pictureintro p{
+    font-size: 25px;
+    color:#fff;
+    text-align: center;
+}
+
+
+.recordtable{
+border-spacing: 0px;
+border: #32A0C2;
+}
+
+#buttomsec{
+background: #353535;
+color:white;
+text-align: center;
+width: 80%;
+margin-top: 10px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.biggerbox{
+margin-top: 20px;
+}
+.subheading{
+    font-size: large;
+    padding: 10px;
+    text-align: center;
+
+}
+.smallbox{
+    width: 30%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+}
+.picture{
+    float: left;
+    width: 30%;
+    padding-bottom: 10px;
+}
+#image{
+    border-radius: 10%;
+    
+}
+
+.register-link {
+    margin-top: 10px;
+    padding: 6px 25px;
+    background: #373E4A;
+    font-weight: bold;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 3px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+#register-link {
+    margin-top: 10px;
+    background: #4D0074;
+    color: #C1C3C6;
+    font-weight: bold;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 3px;
+    height: 38px;
+    padding: 0px 20px 0px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+
+}
+#interact-discover-learn {
+    display: block;
+    height: 140px;
+    padding: 20px;
+    margin: 24px auto 0 auto;
+    
+}
+
+.btn{
+    border:2px solid #32A0C2;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    transition: 0.8s;
+
+}
+.btn1{
+    color:#fff;
+
+}
+
+.btn1:hover{
+    color:#32A0C2 ;
+
+}
+.btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background:#32A0C2 ;
+    z-index: -1;
+    transition:0.8s;
+
+}
+.btn1::before{
+    top: 0;
+    border-radius:0 0 50% 50% ;
+
+}
+.btn1:hover::before{
+    height: 180px;
+}
+
+
+
+
+.subsec1{
+    text-align: center;
+}
+
+#midsection{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.midsec{
+    min-height: 400px;
+    background: url('../images/Capture.PNG') no-repeat right;
+    background-size: auto;    
+    padding: 90px 70px;
+
+}
+.midsectext h1{
+    font-size: 55px;
+    color:#4D0074 ;
+    text-align:left;
+    width: 40%;
+
+
+}
+.midsectext p{
+    font-size: 25px;
+    color:#3a343a;
+    text-align: justify;
+    width: 40%;
+}
+.buttomsection{
+    background:#e2e6e7;
+    color:white;
+    text-align: center;
+    min-height: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+
+footer{
+    background:#32A0C2;
+    color:white;
+    text-align: center;
+    min-height: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+    
+/*footer from colorado*/
+/* Copyright 2002-2018, University of Colorado */
+
+.sponsor {
+    height: 70px;
+    padding: 0 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 10px;
+  }
+  
+  div.main-footer {
+    text-align: center;
+    padding-top: 50px;
+    margin: auto;
+  }
+  
+  .footer-link {
+    font-size: 22px;
+    text-decoration: none;
+    padding-left: 6px;
+    padding-right: 6px;
+    height: 100%;
+    line-height: 16px;
+    display: inline-block;
+  }
+  
+  .footer-icon {
+    width: 16px;
+    height: 16px;
+    vertical-align: bottom;
+    border: none;
+  }
+  
+  div#footer-nav-links {
+    /*margin: 0 85px;*/
+    padding: 10px;
+  }
+  
+  div.other-languages div.translation-links {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  div.other-languages span.globe {
+    font-size: large;
+    vertical-align: middle;
+  }
+  
+  div#footer-nav-links div span {
+    text-transform: uppercase;
+    display: block;
+  }
+  
+  div#footer-nav-links div a,
+  div#footer-nav-links div a:visited {
+    text-decoration: none;
+  }
+  
+  div.footer-highlight-background {
+    background: #f0f0f0;
+    text-align: center;
+  }
+  
+  div.footer-bottom div.right {
+    right: 0;
+    top: 0;
+    padding-top: 5px;
+  }
+  
+  div.footer-bottom div.left {
+    left: 0;
+    top: 0;
+  }
+  
+  div.footer-bottom div.copyright,
+  div.footer-bottom div.copyright a,
+  div.footer-bottom div.copyright a:visited {
+    color: black;
+    text-decoration: none;
+  }
+  
+  div.footer-bottom div.copyright a:hover {
+    text-decoration: underline;
+  }
+  
+  #social-footer {
+    padding: 10px 0;
+    display: inline-block;
+  }
+  
+  a .inline-link,
+  a.inline-link {
+    text-decoration: underline;
+  }
+  
+  a .floating-link,
+  a.floating-link {
+    text-decoration: none;
+  }
+  
+  .inline-link,
+  #footer-nav-links .floating-link {
+    color: #6c6c6c;
+    cursor: pointer;
+    font-weight: 300;
+  }
+  
+  .inline-link:hover,
+  .inline-link:focus,
+  #footer-nav-links .floating-link:focus,
+  #footer-nav-links .floating-link:hover {
+    color: #e01e5a;
+    text-decoration: underline;
+  }
+  
+  div.footer-bottom div#PhET-logo a {
+    display: inline-block;
+  }
+  
+  @media (max-width: 809px) {
+  
+    div#footer-nav-links > div {
+      display: block;
+      margin: auto;
+      width: 100%;
+    }
+  
+    div.footer-bottom div.left {
+      position: relative
+    }
+  
+    div.footer-bottom div.right {
+      position: relative
+    }
+  
+    div.footer-bottom {
+      width: 100%;
+    }
+  
+    div.footer-bottom div#PhET-logo {
+      text-align: center
+    }
+  
+    div#footer-nav-links > div {
+      display: block;
+      margin: auto;
+      width: 100%;
+    }
+  
+    #social-footer span {
+      width: 20%;
+      display: inline-block;
+    }
+  
+    div#social-footer i {
+      font-size: 30px;
+    }
+  
+    div.main-footer,
+    div.main-footer select {
+      font-size: 16px;
+    }
+  
+    div.main-footer hr {
+      display: none;
+    }
+  
+    div.footer-bottom table {
+      margin: auto;
+    }
+  
+    div.footer-bottom td {
+      display: block;
+    }
+  
+    div#footer-nav-links div span {
+      padding: 6px;
+    }
+  
+    div.footer-highlight-background {
+      padding: 20px;
+    }
+  
+    #footer-ipad-button img {
+      width: 160px;
+      padding-top: 10px;
+    }
+  
+    #social-footer {
+      width: 270px;
+    }
+  }
+  
+  @media (min-width: 810px) {
+    #footer-ipad-button img {
+      width: 120px;
+    }
+  
+    div.main-footer hr {
+      display: inline-block;
+      width: 38%;
+    }
+  
+    div.main-footer {
+      clear: both;
+      width: 765px;
+    }
+  
+    div#footer-nav-links > div {
+      display: inline-block;
+      width: 24%;
+      vertical-align: top;
+    }
+  
+    div.footer-bottom div.right,
+    div.footer-bottom div.left {
+      position: absolute;
+    }
+  
+    div.footer-bottom div#PhET-logo {
+      text-align: right;
+    }
+  
+    div.footer-bottom {
+      width: 765px;
+      display: inline-block;
+      position: relative;
+      height: 70px;
+    }
+  
+    div.footer-bottom div.copyright {
+      text-align: right;
+    }
+  }
